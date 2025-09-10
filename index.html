@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tooling Construction Process Flow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c;
+            color: #e2e8f0;
+            scroll-behavior: smooth;
+        }
+        .section-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem 1rem;
+        }
+        .nav-link:hover {
+            color: #48bb78;
+        }
+        .slide-card {
+            background-color: #2d3748;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #4a5568;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full bg-gray-900 bg-opacity-80 backdrop-blur-sm z-50 shadow-lg transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex flex-wrap justify-center items-center gap-4">
+            <a href="#overview" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Overview</a>
+            <a href="#kick-off" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Kick-off</a>
+            <a href="#simulation" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Simulation</a>
+            <a href="#machining" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Machining</a>
+            <a href="#adaptation" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Adaptation</a>
+            <a href="#approval" class="text-white nav-link text-sm md:text-base font-semibold transition-colors duration-200">Approval</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 md:px-8 lg:px-12">
+
+        <!-- Section 1: Overview -->
+        <section id="overview" class="section-container text-center">
+            <div class="max-w-4xl w-full">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-green-400">The Tooling Construction Process Flow</h1>
+                <p class="text-lg md:text-xl mb-12 text-gray-300">
+                    Welcome. I'm here to guide you through the **comprehensive workflow** for the construction of tools and the production of modular dies. This is a journey of precision and collaboration, broken down into five pivotal phases that guarantee flawless execution.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mt-10">
+                    <div class="phase-card bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold mb-2 text-green-300">1. Kick-off</h3>
+                        <p class="text-gray-400">The project’s official launch.</p>
+                    </div>
+                    <div class="phase-card bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold mb-2 text-green-300">2. Simulation & CAD</h3>
+                        <p class="text-gray-400">From concept to physical model.</p>
+                    </div>
+                    <div class="phase-card bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold mb-2 text-green-300">3. Machining & Quality</h3>
+                        <p class="text-gray-400">Precision manufacturing and validation.</p>
+                    </div>
+                    <div class="phase-card bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold mb-2 text-green-300">4. Adaptation</h3>
+                        <p class="text-gray-400">Refining the process for scale.</p>
+                    </div>
+                    <div class="phase-card bg-gray-800 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                        <h3 class="text-xl font-bold mb-2 text-green-300">5. Approval</h3>
+                        <p class="text-gray-400">Authorizing full-scale manufacturing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Phase 1 - Kick-off -->
+        <section id="kick-off" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">Phase 1: Kick-off</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    The journey begins with the **kick-off phase**, a foundational and **pivotal meeting** where we align the client and supplier project teams. Here, we don't just present the organizational chart and schedule; we establish a clear roadmap and shared vision to ensure everyone is perfectly in sync.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 3: Phase 2 - Simulation and CAD -->
+        <section id="simulation" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">Phase 2: Simulation and Method Plan</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.558 12.016a1.5 1.5 0 01-1.282-2.126l.492-.853A1.5 1.5 0 016.48 8.016l1.282.742a1.5 1.5 0 01.742 2.126l-.492.853a1.5 1.5 0 01-1.282.742h-1.25zM12.96 12.016a1.5 1.5 0 01-1.282-2.126l.492-.853a1.5 1.5 0 012.126-.742l1.282.742a1.5 1.5 0 01.742 2.126l-.492.853a1.5 1.5 0 01-1.282.742h-1.25zM10 15a1 1 0 100-2 1 1 0 000 2z"></path>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    The next phase is **simulation**, where we transform abstract ideas into a detailed, concrete plan. This is a deep dive into the specifics, where we determine the **exact weight of the raw material** and the precise **number of operations** required. The output is our **method plan**, the ultimate blueprint that charts our course forward.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 4: CAD Design and Physical Model -->
+        <section id="cad" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">CAD Design and Physical Model</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5l-3.5-3.5 1.5-1.5 2 2 4.5-4.5 1.5 1.5-6 6z"/>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    With the **method plan approved**, we move from digital simulation to tangible creation. We initiate the project's construction in **CAD (Computer-Aided Design)**, meticulously crafting a precise digital model. From there, we transition to the physical world, constructing a styrofoam model that will be sent directly to the foundry for casting.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 5: Phase 3 - Machining and Quality -->
+        <section id="machining" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">Phase 3: Machining and Quality</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.5 10a.5.5 0 01.5-.5h4.5a.5.5 0 01.5.5v4.5a.5.5 0 01-.5.5H6a.5.5 0 01-.5-.5V10zm.5-7a.5.5 0 01.5-.5h2a.5.5 0 01.5.5v2a.5.5 0 01-.5.5H6a.5.5 0 01-.5-.5V3zm-2.5 7a.5.5 0 01.5-.5h2a.5.5 0 01.5.5v2a.5.5 0 01-.5.5h-2a.5.5 0 01-.5-.5V10zm5-7a.5.5 0 01.5-.5h2a.5.5 0 01.5.5v2a.5.5 0 01-.5.5h-2a.5.5 0 01-.5-.5V3zm-2.5 7a.5.5 0 01.5-.5h2a.5.5 0 01.5.5v2a.5.5 0 01-.5.5h-2a.5.5 0 01-.5-.5V10z"></path>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    Following the physical modeling, we proceed with **2D and 3D machining** and component assembly. The third phase is a critical one, focused on **quality convergence** and the production of **validation batches**. We typically conduct between three and four batches to rigorously ensure consistency. Once validated, the tools are ready to ship. For international suppliers, we strategically manage logistics, with transport handled by sea.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 6: Phase 4 - Adaptation -->
+        <section id="adaptation" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">Phase 4: Adaptation and Series Production</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zM4 6a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM4 9a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM4 12a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM4 15a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1z"></path>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    The fourth phase is dedicated to the **adaptation of the process** for the final production environment. Here, we run additional **convergence batches** to fine-tune every detail, ensuring a **seamless transition** from development to full-scale series production.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 7: Phase 5 - Approval -->
+        <section id="approval" class="section-container">
+            <div class="slide-card max-w-2xl w-full text-center">
+                <h2 class="text-3xl font-bold mb-4 text-green-300">Phase 5: Approval and Series Production</h2>
+                <div class="text-gray-400 mb-6 flex justify-center">
+                    <svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-8V6a1 1 0 112 0v2h2a1 1 0 110 2h-2v2a1 1 0 11-2 0v-2h-2a1 1 0 110-2h2z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    Finally, we arrive at the culmination of our efforts: **final approval of the product and process**, which signals the start of **series production**. This is the moment where our conceptual designs are fully realized as high-quality, tangible components, ready for the market.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Smooth scrolling script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
